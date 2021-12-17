@@ -97,13 +97,15 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the IP address of the machines you wish to update
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
 
+- _Which file is the playbook? Where do you copy it?_
+	
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-	+The hosts file must be updated with the IP address of each machine the playbooks are to be run on. You can specify which machine a 	 particular playbook is run on by adding them to the hosts file under different groupss and then specifying which group the playbook 	 will run on when writing the .yml file
+	
+	The hosts file must be updated with the IP address of each machine the playbooks are to be run on. You can specify which machine a 	 particular playbook is run on by adding them to the hosts file under different groupss and then specifying which group the playbook 	 will run on when writing the .yml file
 
 
 - Which URL do you navigate to in order to check that the ELK server is running?
-	+http://20.112.88.109:5601/app/kibana#/home
+	
+	http://20.112.88.109:5601/app/kibana#/home
