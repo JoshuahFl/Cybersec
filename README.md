@@ -98,8 +98,11 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 
-- _Which file is the playbook? Where do you copy it?_
-- 	The playbook file to install an ELK stack is called Install-elk.yml and must be copied to the /etc/ansible directory
+
+
+
+- _Which file is the playbook? Where do you copy it?_ 	
+	The playbook file to install an ELK stack is called Install-elk.yml and must be copied to the /etc/ansible directory
 	
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
