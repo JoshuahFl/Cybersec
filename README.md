@@ -102,6 +102,7 @@ SSH into the control node and follow the steps below:
 
 
 - _Which file is the playbook? Where do you copy it?_ 	
+	
 	The playbook file to install an ELK stack is called Install-elk.yml and must be copied to the /etc/ansible directory
 	
 
